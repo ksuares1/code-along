@@ -1,59 +1,233 @@
-     /* Shop Page */
-.all-browsers {
-    margin: 0;
-    padding: 5px;
-    background-color: lightgray;
-  }
-
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-
-  .browser {
-    background: white;
-  }
-
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-
-  footer {
-    text-align: center;
-    padding: 3px;
-    background-color: hotpink;
-    color: white;
-  }
-
-
-  .footer-container{
-    height:50%;
-    /* margin: 5%; */
-    width:100%;
-    padding:150px;
-    display:flex;
+body,
+html {
+    height: 100vh;
+    width: 100%;
+    display: flex;
     justify-content: center;
-    position:fixed;
-  }
+    align-items: center;
+    margin: 0;
+    background-color: #9fd3c7 !important;
+    color: #ececec;
+}
 
-  .navbar-brand{
-    font-family: monospace;
+h1 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    padding: 100px;
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    justify-content: center;
+}
+
+/* Hero Section */
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.hero-top {
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+
+.hero-bottom {
+    width: 100%;
+    height: 50%;
+    background-color: #7E9599;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-bottom-content {
+    color: white;
+}
+
+.hero-bottom-content p:first-child {
+    font-size: 30px;
+}
+
+.hero-bottom-content p:nth-child(2),
+.hero-bottom-content p:nth-child(3) {
+    font-size: 24px;
+}
+
+.hero-section-left {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #004B54;
+}
+
+.hero-section-left-title {
+    font-size: 34px;
+    text-align: center;
     font-weight: bold;
-  }
+    color: white;
+}
 
-  .three-cards{
-    padding:200px;
-  }
+.hero-section-leftBtn {
+    background-color: #9fd3c7;
+    width: 50%;
+    height: 30px;
+    padding: 25px 10px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+.hero-section-leftBtn:hover {
+    background-color: #d3d0a7;
+}
+
+.hero-section-right {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-section-right img,
+.hero-section-left img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Quiz Section  */
+
+form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: light lightgrey;
+    height: 100%;
+}
+
+.quiz-container {
+    display: none;
+}
+
+.quiz-container h1 {
+    width: 100%;
+}
+
+.quiz-container.show {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    width: 100%;
+}
+
+.quiz-step button {
+    margin-top: 40px;
+    margin-right: 100px;
+    border-radius: 20px;
+    background-color: #81E6D3;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-step button:hover {
+    background-color: #ffca61;
+    /* Replace with the color you want on hover */
+}
+
+.hero-section-left-subtitle {
+    display: block;
+}
+
+.hero-section-left-subtitle:first-of-type {
+    padding-top: 50px;
+    /* Adjust the value as needed */
+}
 
 
-  /* Homepage */
-/* .main-section{
-  border: 1px solid darkgray;
-    padding: 50px;
-    margin: 50px auto;
-    border-radius: 10px;
-    max-width: 50%;
-    height: 65vh;
-    background:white;;
-} */
+.quiz-step {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.hero-bottom-content>div {
+    max-width: 1200px;
+    /* Adjust this value as needed */
+    margin: 0 auto;
+    /* This centers the div if it's smaller than the container */
+}
+
+
+
+
+
+/*Footer */
+
+.footer-container {
+    height: 50%;
+    /* margin: 5%; */
+    width: 100%;
+    padding: 150px;
+    display: flex;
+    position: fixed;
+}
+
+/*NavBar */
+.navbar-brand {
+    font-family: Kalam;
+    font-weight: bold;
+    font-size: regular 400;
+}
+
+/* Shop Picture dimensions & Padding*/
+.picture-section {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.first-fashion {
+    height: 10px;
+    width: 20px;
+}
+
+.second-fashion {
+    height: 30px;
+    width: 40px;
+}
+
+.third-fashion {
+    height: 30px;
+    width: 40px;
+}
+
+
+.three-cards {
+    padding: 250px;
+}

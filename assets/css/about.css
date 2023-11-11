@@ -1,9 +1,85 @@
-/* body {
-background-image:
-} */
 
-p {
-  font-size:20 px;
-   color: blue;
-  
+/*sets formatting for paragraph text*/
+p{
+  font-size: 20px;
+  /* color: #191970;*/
+  color: black;
+  padding: 20px; 
+  text-align: justify;
+  font-family: 'Playfair Display', serif;
 }
+/*sets background color for page*/
+body{
+    /* background-color: #A7B88C */
+  background-color: #869C94;
+  font-family: 'Playfair Display', serif;
+}
+/*sets text formatting for header 1*/
+h1{
+  color: #8AA186;
+  margin-left: 10px;
+  margin-top: 15px;
+  background-color: #8AA;
+padding-top: 25px;
+  font-family: 'Playfair Display', serif;
+}
+/*uses class to set formatting on specific sections - rearranging photos - maybe should use float for images*/
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+  /*format images*/
+ img{
+   border: 5px solid #B9B68D;
+   background-color:#A7B88C; 
+   vertical-align:baseline;
+   /*position: center; have more than one pic may be better to use float to arrange images*/
+ }
+
+.textcredit{
+   font-size: 9px
+ }
+
+.container-fluid{
+  background-color: #A7B88C;
+} 
+
+.navbar bg-body-tertiary fixed-top{
+color: #A7B88C;
+}
+
+.navbar-brand{
+  background-color: B9B68D;
+}
+
+.first-color { 
+  background: #ececec; 
+}
+
+.second-color { 
+  background: #9fd3c7; 
+}
+
+.third-color { 
+  background: #385170; 
+}
+
+.fourth-color { 
+  background: #142d4c; 
+}
+/* #overlay{
+
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  Z-index: 2;
+  cursor: pointer;
+} */

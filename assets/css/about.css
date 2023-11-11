@@ -6,10 +6,10 @@ body{
 /* heading-section */
 .our-story{
   margin:5px;
-   padding:100px; 
+  padding:100px; 
   background-color:#9fd3c7;;
   width:650px;
-  height:680px;
+  height:600px;
   border-radius:8px;
 
 }
@@ -27,16 +27,22 @@ body{
   text-align: center;
   position: relative;
   right:25%;
+  margin:0px;
+  position:relative;
+  top:-50px;
 }
 
 .story-img{
-height:1056px;
-width:950px;
+height:654px;
+width:780px;
 position: relative;
-left:39%;
+left:42%;
 top:-50%;
 }
 
+.subtext{
+  text-align: center;
+}
 
 
 

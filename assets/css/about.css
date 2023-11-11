@@ -1,4 +1,6 @@
-
+body{
+   min-height: 100vh;
+}
 /*sets formatting for paragraph text*/
 p{
   font-size: 20px;

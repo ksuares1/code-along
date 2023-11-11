@@ -1,3 +1,4 @@
+     /* Shop Page */
 .all-browsers {
     margin: 0;
     padding: 5px;
@@ -23,4 +24,15 @@
     padding: 3px;
     background-color: hotpink;
     color: white;
+  }
+
+
+  .footer-container{
+    height:50%;
+    /* margin: 5%; */
+    width:100%;
+    padding:150px;
+    display:flex;
+    justify-content: center;
+    position:fixed;
   }

@@ -36,3 +36,8 @@
     justify-content: center;
     position:fixed;
   }
+
+  .navbar-brand{
+    font-family: monospace;
+    font-weight: bold;
+  }

@@ -189,12 +189,13 @@ form {
 /*Footer */
 
 .footer-container {
-    height: 50%;
-    /* margin: 5%; */
-    width: 100%;
-    padding: 150px;
-    display: flex;
-    position: fixed;
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ececec;
+   color:black;
+   text-align: center;
 }
 
 /*NavBar */

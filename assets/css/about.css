@@ -117,5 +117,6 @@ color: #A7B88C;
    width: 100%;
    background-color: #ececec;
    color:black;
-   text-align: center;
+   display:flex;
+   justify-content: center;
 }

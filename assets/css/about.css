@@ -40,7 +40,8 @@ padding-top: 25px;
 .about-heading{
   text-align:center;
   color:black;
-  left:35%;
+  position: relative;
+  left:25%;
 }
 
 .story-para{

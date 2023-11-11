@@ -17,13 +17,36 @@ body{
   font-family: 'Playfair Display', serif;
 }
 /*sets text formatting for header 1*/
-h1{
+/* h1{
   color: #8AA186;
   margin-left: 10px;
   margin-top: 15px;
   background-color: #8AA;
 padding-top: 25px;
   font-family: 'Playfair Display', serif;
+} */
+
+/* heading-section */
+.our-story{
+  margin:5px;
+  padding:200px;
+  background-color:#9fd3c7;;
+  width:750px;
+  height:680px;
+  border-radius:8px;
+
+}
+
+.about-heading{
+  text-align:center;
+  color:black;
+  left:35%;
+}
+
+.story-para{
+  line-height: 1.5;
+  width:550px;
+  text-align: center;
 }
 /*uses class to set formatting on specific sections - rearranging photos - maybe should use float for images*/
 .center{

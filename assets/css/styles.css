@@ -205,6 +205,7 @@ form {
     font-size: regular 400;
 }
 
+
 /* Shop Picture dimensions & Padding*/
 .picture-section {
     padding-top: 30px;
@@ -213,19 +214,23 @@ form {
     padding-right: 10px;
 }
 
+/* Cards */
 .first-fashion {
-    height: 350px;
-    width: 295px;
+    height: 355px;
+    width: 296px;
+    border-radius: 8px;
 }
 
 .second-fashion {
   height: 350px;
-    width: 295px;
+    width: 299px;
+  border-radius:8px;
 }
 
 .third-fashion {
  height: 350px;
-    width: 295px;
+ width: 299px;
+ border-radius: 8px;
 }
 
 

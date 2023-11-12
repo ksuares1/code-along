@@ -28,90 +28,7 @@ button {
     justify-content: center;
 }
 
-/* Hero Section */
-.hero-section {
-    width: 100%;
-    height: 100vh;
-    display: none;
-}
 
-.hero-top {
-    display: flex;
-    width: 100%;
-    height: 60%;
-}
-
-.hero-bottom {
-    width: 100%;
-    height: 50%;
-    background-color: #7E9599;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hero-bottom-content {
-    color: white;
-}
-
-.hero-bottom-content p:first-child {
-    font-size: 30px;
-}
-
-.hero-bottom-content p:nth-child(2),
-.hero-bottom-content p:nth-child(3) {
-    font-size: 24px;
-}
-
-.hero-section-left {
-    width: 100%;
-    height: 100%;
-}
-
-.hero-section-middle {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    background-color: #004B54;
-}
-
-.hero-section-left-title {
-    font-size: 34px;
-    text-align: center;
-    font-weight: bold;
-    color: white;
-}
-
-.hero-section-leftBtn {
-    background-color: #9fd3c7;
-    width: 50%;
-    height: 30px;
-    padding: 25px 10px;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    transition: 0.15s;
-}
-
-.hero-section-leftBtn:hover {
-    background-color: #d3d0a7;
-}
-
-.hero-section-right {
-    width: 100%;
-    height: 100%;
-}
-
-.hero-section-right img,
-.hero-section-left img {
-    width: 100%;
-    height: 100%;
-}
 
 /* Quiz Section  */
 
@@ -175,13 +92,17 @@ form {
     display: block;
 }
 
+
+/* our story-homepage */
 .hero-bottom-content>div {
     max-width: 1200px;
     /* Adjust this value as needed */
     margin: 0 auto;
     /* This centers the div if it's smaller than the container */
 }
-
+.mission-statement{
+    font-size: 20px;
+}
 
 
 
@@ -236,4 +157,19 @@ form {
 
 .three-cards {
     padding: 250px;
+}
+
+
+.main-image{
+    height:50px;
+    
+}
+
+.main-container{
+    height:30%;
+  background-color:#9fd3c7;
+}
+
+.col-6{
+    padding:50px;
 }

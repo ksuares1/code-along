@@ -1,175 +1,234 @@
 body,
 html {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: #9fd3c7 !important;
-    color: #ececec;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0;
+	background-color: #9fd3c7 !important;
+	color: #ececec;
 }
 
-h1 {
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    padding: 100px;
-    text-align: center;
+nav {
+	height: 70px;
 }
 
 button {
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-right: 10px;
-    padding: 5px 10px;
-    justify-content: center;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-right: 10px;
+	padding: 5px 10px;
+	justify-content: center;
 }
-
-
 
 /* Quiz Section  */
 
-form {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    background-color: light lightgrey;
-    height: 100%;
+form .show {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+	background-color: light lightgrey;
+	height: 100%;
 }
 
 .quiz-container {
-    display: none;
+	display: none;
 }
 
 .quiz-container h1 {
-    width: 100%;
+	width: 100%;
+	text-align: center;
 }
 
 .quiz-container.show {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    font-size: 20px;
-    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: auto;
+	position: absolute;
+	top: 30%;
+	font-size: 20px;
+	width: 100%;
 }
 
 .quiz-step button {
-    margin-top: 40px;
-    margin-right: 100px;
-    border-radius: 20px;
-    background-color: #81E6D3;
-    padding: 10px 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	margin-top: 40px;
+	margin-right: 100px;
+	border-radius: 20px;
+	background-color: #81e6d3;
+	padding: 10px 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .quiz-step button:hover {
-    background-color: #ffca61;
-    /* Replace with the color you want on hover */
+	background-color: #ffca61;
+	/* Replace with the color you want on hover */
+}
+
+.hero-section {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	line-height: 50px;
+}
+
+.hero-section-leftBtn {
+	text-align: center;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	font-size: 17px;
+	margin-top: 40px;
+	transition: 0.15s;
+}
+
+.hero-bottom-content {
+	height: 100vh;
 }
 
 .hero-section-left-subtitle {
-    display: block;
+	display: block;
 }
 
 .hero-section-left-subtitle:first-of-type {
-    padding-top: 50px;
-    /* Adjust the value as needed */
+	padding-top: 50px;
+	/* Adjust the value as needed */
 }
 
+.hero-section-leftBtn:hover {
+	transform: scale(1.2);
+}
 
 .quiz-step {
-    display: none;
+	display: none;
 }
 
-.show {
-    display: block;
+.quiz-step.show {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
+.hide {
+	display: none;
+}
 
 /* our story-homepage */
-.hero-bottom-content>div {
-    max-width: 1200px;
-    /* Adjust this value as needed */
-    margin: 0 auto;
-    /* This centers the div if it's smaller than the container */
-}
-.mission-statement{
-    font-size: 20px;
+.hero-bottom-content > div {
+	max-width: 1200px;
+	/* Adjust this value as needed */
+	margin: 0 auto;
+	/* This centers the div if it's smaller than the container */
 }
 
-
-
+.mission-statement {
+	font-size: 20px;
+}
 
 /*Footer */
 .footer-container {
-  position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #ececec;
-   color:black;
-   display:flex;
-   justify-content: center;
+	width: 100%;
+	background-color: #ececec;
+	color: black;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
 }
 
 /*NavBar */
 .navbar-brand {
-    font-family: Kalam;
-    font-weight: bold;
-    font-size: regular 400;
+	font-family: Kalam;
+	font-weight: bold;
+	font-size: regular 400;
 }
-
 
 /* Shop Picture dimensions & Padding*/
 .picture-section {
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 /* Cards */
 .first-fashion {
-    height: 355px;
-    width: 296px;
-    border-radius: 8px;
+	height: 355px;
+	width: 296px;
+	border-radius: 8px;
 }
 
 .second-fashion {
-  height: 350px;
-    width: 299px;
-  border-radius:8px;
+	height: 350px;
+	width: 299px;
+	border-radius: 8px;
 }
 
 .third-fashion {
- height: 350px;
- width: 299px;
- border-radius: 8px;
+	height: 350px;
+	width: 299px;
+	border-radius: 8px;
 }
-
 
 .three-cards {
-    padding: 250px;
+	padding: 250px;
 }
 
-
-.main-image{
-    height:50px;
-    
+.main-image {
+	height: 500px;
+	width: 100%;
+	padding-bottom: 40%;
 }
 
-.main-container{
-    height:30%;
-  background-color:#9fd3c7;
+.main-container {
+	margin-top: 1200px;
 }
 
-.col-6{
-    padding:50px;
+.col-6 {
+	padding: 50px;
+	padding: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+	.hero-section-top {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		padding-top: -20%;
+		width: 100%;
+	}
+
+	.main-image {
+		width: 140%;
+		padding-right: 40px;
+		margin-top: -290px;
+		filter: blur(2px);
+	}
+
+	.img-container {
+		position: relative;
+	}
+
+	.hero-text {
+		position: absolute;
+		top: 185px;
+		margin-left: 40px;
+		z-index: 10;
+		background-color: rgba(0, 0, 0, 0.4);
+		color: #ececec;
+	}
 }

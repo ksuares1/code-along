@@ -24,8 +24,8 @@ button {
 	justify-content: center;
 }
 
-/* Quiz Section  */
 
+/* Quiz Section  */
 form .show {
 	position: relative;
 	display: flex;
@@ -140,6 +140,7 @@ form .show {
 
 /*Footer */
 .footer-container {
+
 	width: 100%;
 	background-color: #ececec;
 	color: black;
@@ -147,6 +148,8 @@ form .show {
 	justify-content: center;
 	position: fixed;
 	bottom: 0;
+  left: 0;
+
 }
 
 /*NavBar */
